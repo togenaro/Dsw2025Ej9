@@ -6,7 +6,9 @@ Un barco de carga se utiliza para transportar mercadería de distintos tipos, co
 *	Una bodega para alimentos
 *	Una bodega para herramientas
 *	Una bodega para productos electrónicos
+  
 Sin embargo, después de construir tres bodegas, el espacio físico del barco se agotó y ya no era posible seguir construyendo más bodegas para nuevos tipos de mercadería. Esto generó un problema, ya que el barco debía ser capaz de transportar cualquier tipo de mercadería sin importar su naturaleza.
+
 El capitán necesita una solución que permita almacenar y gestionar mercadería de cualquier tipo en el barco, sin necesidad de construir bodegas adicionales para cada tipo. Además, la solución debe cumplir con los siguientes requisitos:
 *	Flexibilidad: La solución debe permitir almacenar cualquier tipo de mercadería, ya sean alimentos, herramientas, productos electrónicos, o cualquier otro tipo que se presente en el futuro
 *	Organización: Cada tipo de mercadería debe mantenerse separado y ser fácilmente accesible
