@@ -1,17 +1,17 @@
-# Ejercicio N° 9
+# Ejercicio NÂ° 9
 ## Desarrollo de Software
-### Genéricos
+### GenÃ©ricos
 
-Un barco de carga se utiliza para transportar mercadería de distintos tipos, como alimentos, herramientas, y productos electrónicos. Inicialmente, el capitán decidió construir bodegas independientes para cada tipo de mercadería. Por ejemplo:
-•	Una bodega para alimentos.
-•	Una bodega para herramientas.
-•	Una bodega para productos electrónicos.
-Sin embargo, después de construir tres bodegas, el espacio físico del barco se agotó y ya no era posible seguir construyendo más bodegas para nuevos tipos de mercadería. Esto generó un problema, ya que el barco debía ser capaz de transportar cualquier tipo de mercadería sin importar su naturaleza.
-El capitán necesita una solución que permita almacenar y gestionar mercadería de cualquier tipo en el barco, sin necesidad de construir bodegas adicionales para cada tipo. Además, la solución debe cumplir con los siguientes requisitos:
-1.	Flexibilidad: La solución debe permitir almacenar cualquier tipo de mercadería, ya sean alimentos, herramientas, productos electrónicos, o cualquier otro tipo que se presente en el futuro.
-2.	Organización: Cada tipo de mercadería debe mantenerse separado y ser fácilmente accesible.
-3.	Escalabilidad: La solución debe ser capaz de manejar un número ilimitado de tipos de mercadería sin requerir cambios estructurales en el barco.
-El capitán te ha pedido que diseñes un sistema para resolver este problema. ¿Cómo podrías implementar una solución eficiente utilizando genéricos para cumplir con los requisitos del barco?
+Un barco de carga se utiliza para transportar mercaderÃ­a de distintos tipos, como alimentos, herramientas, y productos electrÃ³nicos. Inicialmente, el capitÃ¡n decidiÃ³ construir bodegas independientes para cada tipo de mercaderÃ­a. Por ejemplo:
+â€¢	Una bodega para alimentos.
+â€¢	Una bodega para herramientas.
+â€¢	Una bodega para productos electrÃ³nicos.
+Sin embargo, despuÃ©s de construir tres bodegas, el espacio fÃ­sico del barco se agotÃ³ y ya no era posible seguir construyendo mÃ¡s bodegas para nuevos tipos de mercaderÃ­a. Esto generÃ³ un problema, ya que el barco debÃ­a ser capaz de transportar cualquier tipo de mercaderÃ­a sin importar su naturaleza.
+El capitÃ¡n necesita una soluciÃ³n que permita almacenar y gestionar mercaderÃ­a de cualquier tipo en el barco, sin necesidad de construir bodegas adicionales para cada tipo. AdemÃ¡s, la soluciÃ³n debe cumplir con los siguientes requisitos:
+1.	Flexibilidad: La soluciÃ³n debe permitir almacenar cualquier tipo de mercaderÃ­a, ya sean alimentos, herramientas, productos electrÃ³nicos, o cualquier otro tipo que se presente en el futuro.
+2.	OrganizaciÃ³n: Cada tipo de mercaderÃ­a debe mantenerse separado y ser fÃ¡cilmente accesible.
+3.	Escalabilidad: La soluciÃ³n debe ser capaz de manejar un nÃºmero ilimitado de tipos de mercaderÃ­a sin requerir cambios estructurales en el barco.
+El capitÃ¡n te ha pedido que diseÃ±es un sistema para resolver este problema. Â¿CÃ³mo podrÃ­as implementar una soluciÃ³n eficiente utilizando genÃ©ricos para cumplir con los requisitos del barco?
 
 Clonar el repositorio: https://github.com/ing-software-frt-utn/Dsw2025Ej9
 Seguir las instrucciones en la clase _**_Dsw2025Ej9.Bodegas.Generica_**_
