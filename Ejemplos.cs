@@ -1,4 +1,5 @@
-﻿using Dsw2025Ej9.Bodegas;
+﻿using System.Runtime.InteropServices;
+using Dsw2025Ej9.Bodegas;
 using Dsw2025Ej9.Entidades;
 
 namespace Dsw2025Ej9;
@@ -62,7 +63,7 @@ internal class Ejemplos
         bAlimentos.Agregar(new Alimento("Manzana"));
         bHerramientas.Agregar(new Herramienta("Martillo"));
         bEnteros.Agregar(43);
-        
+
         Console.WriteLine("\nRecorriendo bodegas múltiples:");
         Console.WriteLine("\n--- Contenido Alimentos ---");
         foreach (Alimento a in bAlimentos.Listar())
@@ -79,6 +80,23 @@ internal class Ejemplos
 
     public static void BodegaGenerica()
     {
-        throw new NotImplementedException();
+        var generica = new Generica<Mercancia>();
+
+        generica.Agregar(new Alimento("Manzana"));
+        generica.Agregar(new Alimento("Chicle"));
+
+        generica.Agregar(new Herramienta("Martillo"));
+        generica.Agregar(new Herramienta("Amoladora", true));
+
+        static void Listar<T>(List<T> lista) where T : Mercancia
+        {
+            foreach (var item in lista)
+            {
+                Console.WriteLine($"{item.Nombre}");
+            }
+        }
+
+        Console.WriteLine("\n--- Contenido bodega genérica ---");
+        Listar(generica.Listar());
     }
 }

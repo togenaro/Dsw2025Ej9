@@ -1,4 +1,7 @@
-﻿namespace Dsw2025Ej9.Bodegas;
+﻿using Dsw2025Ej9.Entidades;
+using System.Collections;
+
+namespace Dsw2025Ej9.Bodegas;
 
 /*
      * ¡Se decidió construir una bodega por cada tipo!
@@ -16,7 +19,21 @@
      *      
      * 3) Asegurar que la nueva bodega genérica solo acepte mercancías
      *
-     */
-public class Generica
+*/
+public class Generica<T> where T : Mercancia
 {
+    private readonly List<T> _items = new List<T>();
+    public void Agregar(T item)
+    {
+        _items.Add(item);
+    }
+
+    public T Obtener(int index)
+    {
+        if (_items.Count == 0 || index >= _items.Count)
+            throw new Exception("No hay elementos en la bodega");
+        return _items[index]!;
+    }
+
+    public List<T> Listar() => _items;
 }
